@@ -1,0 +1,19 @@
+# python bubble, never push this to github
+venv/
+
+# python bytecode cache
+__pycache__/
+*.pyc
+*.pyo
+
+# mac system files
+.DS_Store
+
+# jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# our local-only paranoia check script (not needed for grading)
+test_model_load.py
+
+# mlflow runs (we'll generate these for Part 2, don't commit them)
+mlruns/

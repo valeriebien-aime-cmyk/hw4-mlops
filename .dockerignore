@@ -1,0 +1,17 @@
+# python stuff we don't need in the container
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# dev files not needed at runtime
+test_api.py
+test_model_load.py
+HW4_PROGRESS.md
+.git/
+.gitignore
+.DS_Store
+
+# notebooks, we'll do those separately
+*.ipynb
+.ipynb_checkpoints/
