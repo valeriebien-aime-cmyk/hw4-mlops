@@ -17,3 +17,5 @@ test_model_load.py
 
 # mlflow runs (we'll generate these for Part 2, don't commit them)
 mlruns/
+# olist raw data - not committed, too big
+data/
